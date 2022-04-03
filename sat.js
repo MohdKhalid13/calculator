@@ -19,6 +19,5 @@ function solve(){
 function clearScreen(){
 
     document.getElementById('output').value = ''
-    console.log("khalid");
 
 }
