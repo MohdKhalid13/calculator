@@ -1,0 +1,138 @@
+body{
+   background-color: black;
+
+}
+h1{
+    font-size: 50px;
+    color: blue;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes change {
+    0%{
+        color: blueviolet;
+    }
+    50%{
+        color: brown;
+    }
+    100%{
+        color: azure;
+    }
+    
+}
+
+.cal
+{
+ margin-left: 43%;
+ margin-top: 10%;
+}
+.calculator
+{
+    background-color: aqua;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 5px;
+    height: 50px;
+    width: 50px;
+    border-width: 3px;
+    border-color: blue;
+    font-weight: bolder;
+    position: center;
+    animation-name: blink;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.calculator:hover{
+    transform: scale(1.1);
+}
+
+@keyframes blink {
+    0%{
+        color: black;
+        background-color: blueviolet;
+        border-color: darkgreen;
+    }
+    50%{
+        color: brown;
+        background-color:orangered;
+        border-color: blue;
+    }
+    100%{
+        color: blue;
+        background-color: cyan;
+        border-color: purple;
+    }
+}
+.text
+{
+    text-align: right;
+}
+
+.CC{
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 5px;
+    height: 40px;
+    width: 100px;
+    background-color: aqua;
+    color: orange   ;
+    font-weight: bolder;
+    
+
+
+}
+
+
+.CCC{
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 5px;
+    height: 40px;
+    width: 200px;
+    margin-left: 5px;
+    font-weight: bolder;
+    background-color: aqua;
+    border-width: 3px;
+    border-color: blue;
+    color: red;
+    font-weight: bolder;
+    animation-name: ccc;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes ccc {
+    0%{
+        color:black;
+        background-color: blueviolet;
+        border-color: darkgreen;
+    }
+    100%{
+        color: orange;
+        background-color: cyan;
+        border-color: purple;
+    }
+    
+}
+.CCC:hover{
+    
+    transform: scale(1.1);
+}
+
+
+.text{
+      height: 40px;
+      width: 23%;
+      color: blue;
+      font-size: 20px;
+      border: 5px solid black;
+      border-radius: 15px;
+      background-color: aquamarine;
+}
